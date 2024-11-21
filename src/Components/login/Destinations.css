@@ -1,0 +1,178 @@
+.desi .title {
+    background-color: #fefefe;
+    margin-bottom: 20px;
+  }
+  .titre{
+  text-align: center;
+   
+
+  }
+  .desi h3 {
+    margin: 2;
+    padding: 5px 0 5px 0;
+    color: rgb(0, 0, 0);
+    font-weight:300 ;
+  }
+  .containergrid{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Divide the grid into two equal sections */
+    grid-gap: 10px; /* Adjust the gap between sections as needed */
+
+
+
+  }
+  .container-box{
+     background-color: #661647;
+     opacity: 0.8;
+     margin:100px;
+     height: 650px;
+     width: 350px;
+
+  }
+  h1 {
+    font-size: 40px;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+  padding:0.7em 1.4em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:10px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  text-transform:uppercase;
+  color:#f7f7f7;
+  background-color:#b211d2;
+  box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  text-align:center;
+  position:relative;
+}
+.containe{
+  width: 100%;
+  height: 100%;
+   /* You can change background here*/
+  
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:active{
+top:0.1em;
+  }
+  button:hover{
+      background-color:#2111d2;
+
+  }
+
+.containergrid{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://1.bp.blogspot.com/-fyF-OXXEBBY/X1altgmlwQI/AAAAAAAA66s/KVb5Fjlb_f41xu_pEjq5VpDhRWr2QbJFACLcBGAsYHQ/s2560/hexagon-blender-4k-22-3840x2160.jpg); /* You can change background here*/
+    
+  
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+
+}
+@media all and (max-width:30em){
+   button{
+      display:block;
+      margin:0.4em auto;
+  }
+}
+
+@media (max-width: 600px){
+  #border{
+      height: 100%;
+      width: 100%;
+      border-radius: 0;
+  }
+}
+
+
+#outputBorder {
+  height:130px;
+  width: 130px;
+  
+  /* border: 1px solid black; */
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0,0,0, 0.2);
+  
+  
+}
+
+#content {
+  padding: 5%;
+  box-sizing: content-box;
+  width: auto;
+  
+}
+
+
+#QR_Input {
+  height: 20px;
+  position: relative;
+  border: 2px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, .14);
+  background-color: AliceBlue;
+  font-size: 14px;
+  border-radius: 10px;
+  height: 100px;
+}
+
+#border {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  background-color:#f7f7f7;
+  /* bring your own prefixes */
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0,0,0, 0.5);
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+} 
+  
+ 
+#QR_Input {
+  height: 20px;
+  position: relative;
+  border: 2px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, .14);
+  background-color: AliceBlue;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+#QR_Input {
+  width: 85%;
+  height: 40px;
+}
+
+
+#submitButton {
+  margin-right: 25px;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

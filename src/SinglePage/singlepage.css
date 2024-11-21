@@ -1,0 +1,75 @@
+
+  .single-page {
+    position: relative;
+  }
+  
+  .container1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://1.bp.blogspot.com/-fyF-OXXEBBY/X1altgmlwQI/AAAAAAAA66s/KVb5Fjlb_f41xu_pEjq5VpDhRWr2QbJFACLcBGAsYHQ/s2560/hexagon-blender-4k-22-3840x2160.jpg); /* You can change background here*/
+    
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+  .main-content .para p {
+    margin-right: 10px;
+  }
+  .main-content h1 {
+    font-size: 30px;
+  }
+ 
+  .card1{
+    width: 90%;
+    max-width: 440px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+  .image1{
+    width: 140px;
+    border-radius: 50%;
+    font-weight: 600;
+    margin-top: 20px;
+   margin-left: 17%;
+  
+}
+  article .box {
+    color: #fff;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    padding: 30px;
+    color: white;
+  }
+  article .box h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  article p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  article .box2 p {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+  }
+  @media screen and (max-width: 768px) {
+    .single-page .flex {
+      flex-direction: column;
+    }
+  }

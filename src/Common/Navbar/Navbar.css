@@ -1,0 +1,210 @@
+.navbar {
+    background: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 11vh;
+    line-height: 10vh;
+  }
+ .logo{
+  margin: 7px;
+  padding-bottom: 10px;
+ }
+  li{
+    float: left;
+  }
+  h4{
+     margin: 10px;
+  }
+  nav ul li {
+    display: inline-block;
+    transition: all 0.2s ease-out;
+    margin: 10px 20px 10px 0;
+  }
+  a{
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s;
+   
+   
+}
+.navbar a:hover{
+  color: #dcdddd;
+  border-radius: 10%;
+  width: 50px;
+  box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+  transition-delay: 0.2s;
+}
+a span{
+  position: absolute;
+  display: block;
+}
+  nav ul li  {
+    color: #222;
+    font-weight: 900;
+    font-size: 20px;
+    transition: all 0.2s ease-out;
+    opacity: 1;
+  }
+  nav ul li :hover {
+    color: #FFF;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  nav i {
+    font-size: 200;
+    color: #ffffff;
+  }
+  .login-area {
+    color: rgb(0, 0, 0);
+  }
+  
+  .login-area a {
+    font-weight: 700;
+    opacity: 1;
+    font-size: 20px;
+    color: #ffffff;
+    transition: all 0.2s ease-out;
+  }
+.login-area a:hover {
+    color: #00A1FF;
+  }
+  .login-area i {
+    margin: 0 5px 0 15px;
+    font-size: 15px; font-weight: 100;
+
+    color: #00A1FF;
+  }
+  .login-area button {
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    background-color: #00A1FF;
+  }
+  i {
+    color :blue;
+  }
+  .icons{
+    color: #00A1FF;
+    margin: 15px;
+}
+
+  @media screen and (max-width: 1400px) {
+    .login-area {
+      
+      right: 20px;
+    }
+    .navbar {
+      text-align: center;
+    }
+    nav ul  {
+      
+      width: 60%;
+      height: 90vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+    nav   ul li{
+      display:inline-block;
+    
+    }
+    nav ul.active {
+      background: #121313;
+      width: 300px;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 100;
+    }
+    nav ul li a {
+      font-weight: 400;
+      opacity: 1;
+      color: #ffffff;
+    }
+    .menu-icon {
+      display:grid;
+      position: absolute;
+      top: 0;
+      left: 20px;
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      font-size: 2rem;
+    }
+    h4{
+      font-size: 12px;
+    }
+  }
+  /*--------header------------*/
+ 
+  header .box {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  header a {
+    font-size: 11px;
+    color: grey;
+  }
+  header i {
+    font-size: 30px;
+    color: #2196f3;
+   
+  }
+  header .text {
+    margin-top: 10px;
+  }
+  header h4 {
+    line-height: 10px;
+  }
+  
+  /*--------header------------*/
+  @media screen and (max-width: 700px) {
+    /*--------header--------*/
+    header .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    header .contact {
+      justify-content: center;
+      align-items: center;
+    }
+    header a {
+      font-size: 13px;
+    }
+  
+    .login-area  {
+    
+     margin-left: 20px;
+     
+    }
+    .login-area i {
+    
+     
+     
+      color: #cc1919;
+    }
+    .login-area  li {
+      
+      width: 60%;
+      font-size: 1 px;
+
+      
+    }
+
+
+    /*--------header--------*/
+  }
