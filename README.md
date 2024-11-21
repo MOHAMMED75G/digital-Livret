@@ -1,4 +1,4 @@
-# projett-# Livret Digital Creator
+# Livret Digital Creator
 
 ## Project Overview
 
