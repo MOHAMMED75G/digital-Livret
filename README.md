@@ -1,66 +1,36 @@
-# Livret Digital Creator
+﻿# Digital Livret
 
-## Project Overview
+> React + Express full-stack app for creating personalized digital booklets (livrets) shared via unique URLs and QR codes. Users build profile pages with custom backgrounds and content sections in MongoDB; includes blog/gallery modules, Google Maps, Three.js 3D visuals, and Nodemailer contact flows.
 
-The **Livret Digital Creator** is a web platform that simplifies the process of creating, sharing, and managing digital booklets (Livret Digital) for hotels. Our platform allows hoteliers to curate and present essential information in a visually appealing, interactive format, enhancing guest communication and overall experience.
+## Overview
 
-## Features
+| | |
+|---|---|
+| **Year** | 2024 |
+| **Category** | ecommerce platforms |
+| **Author** | [Mohamed Gharab](https://portfolio-mohamed-gh.vercel.app) |
 
-### Core Features:
-- **Sign Up & Sign In**: Secure authentication using Firebase for new and returning users.
-- **Contact Us Form**: A dedicated section for inquiries and support.
-- **User Profiles**: Create and manage your profile.
-- **Create a Book**: Design digital booklets to showcase hotel amenities, policies, local recommendations, and more.
-- **QR Code Sharing**: Each Livret Digital is linked to a unique QR code, making it easy for guests to access the booklet on their smartphones.
+## Links
 
-### Why Use Livret Digital?
-Our platform empowers hotels to:
-- Simplify guest communication.
-- Provide real-time access to hotel details.
-- Customize digital booklets to reflect unique branding and style.
-- Enhance guest satisfaction with innovative and interactive tools.
-
-## Try It Out
-Visit our platform and experience the benefits of Livret Digital firsthand. Whether you manage a boutique hotel or a large resort, our tools are designed to meet your needs.
+- **Repository:** https://github.com/MOHAMMED75G/digital-Livret
+- **Portfolio:** https://portfolio-mohamed-gh.vercel.app/projects/digital-Livret
 
 ## Tech Stack
 
-This project is built using the following technologies:
-- **Frontend**: React.js
-- **Backend**: Node.js with Express.js
-- **Database**: MongoDB
-- **Authentication**: Firebase
-- **QR Code Generation**: Integrated tools for creating sharable QR codes.
+- React
+- Express
+- MongoDB
+- QR Codes
 
-## Installation and Setup
+## About the Author
 
-Follow these steps to set up the project locally:
+**Mohamed Gharab** - Full-Stack Software Engineer at TrustDev (ERPNext, fintech, document AI).  
+ENSI graduate (June 2025) - French and English.
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/MOHAMMED75G/digital-livret.git
-    cd livret-digital
-    ```
+- Portfolio: https://portfolio-mohamed-gh.vercel.app
+- GitHub: https://github.com/MOHAMMED75G
+- LinkedIn: https://linkedin.com/in/mohamed-gharab-4a4b0825a
+- Email: mohamed.gharab@ensi-uma.tn
 
-2. **Install dependencies**:
-    ```bash
-    npm install
-    cd ..
-    ```
-
-4. **Run the app**:
-    ```bash
-    npm start
-    ```
-
-5. **Run the server**:
-    ```bash
-    cd backend
-    node server.js
-    ```
-
-6. Open your browser and navigate to `http://localhost:3000`.
-
-## Project Structure
-
-
+---
+*README auto-generated from portfolio data - 2024*
